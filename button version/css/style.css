@@ -1,0 +1,43 @@
+#container-block {
+    width: 400px;
+    height: 410px;
+    background: gray;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#inner-block {
+    width: 250px;
+    height: 200px;
+    background: darkgray;
+    margin: 0 auto;
+}
+#textarea-block {
+    width: 244px;
+    height: 194px;
+    background: lightpink;
+    margin: 0 auto;
+}
+
+.edit-button,
+.save-button,
+.cancel-button {
+    width: 380px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#textarea-block {
+    display: none;
+}
+#inner-block {
+    display: block;
+}
+
+.editMode #textarea-block {
+    display: block;
+}
+.editMode #inner-block {
+    display: none;
+}
+
